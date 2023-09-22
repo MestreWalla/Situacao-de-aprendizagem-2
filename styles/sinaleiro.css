@@ -6,8 +6,9 @@ html {
 }
 
 body {
-	background-image: url(img/cidade_bg.jpg);
+	background-image: url(../img/cidade_bg.jpg);
 	background-size:cover;
+	filter: brightness(100%);
 	display: flex;
 	justify-content: center;
 	align-items: center;

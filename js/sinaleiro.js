@@ -44,6 +44,7 @@ if (today.getHours() >= 5) {
 			amarelo.classList.remove('amarelo-ativo');
 		} else if (contador === 15) {
 			// Removendo a classe 'verde-ativo' do elemento com a classe 'verde'
+			verde.classList.remove('verde-ativo');
 			contador = 0;
 		}
 		// Incrementando o contador
