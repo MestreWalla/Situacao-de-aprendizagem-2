@@ -103,6 +103,24 @@ body {
 	background: red;
 	box-shadow: 0 0 15px 3px red;
 }
+.manutencao {
+	display: flex;
+	width: 20px;
+	height: 15px;
+	position: absolute;
+	left: 85px;
+	bottom: 15px;
+	& button {
+		width: 10px;
+		border-radius: 10px;
+		&:first-child{
+			background-color: rgb(170, 5, 5);
+		} &:last-child{
+			background-color: rgb(3, 112, 3);
+		}
+		
+	}
+}
 
 .amarelo-ativo {
 	background: #FFFF00;
