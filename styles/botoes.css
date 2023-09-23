@@ -10,6 +10,7 @@
 .telacheia,
 .voltar {
   border-style: none;
+  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 5px;

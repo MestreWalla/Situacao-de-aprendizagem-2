@@ -19,7 +19,11 @@
 // A mensagem apropriada (Vitória, Empate ou Derrota) é exibida ajustando os estilos dos elementos de mensagem correspondentes.
 
 // O placar é atualizado chamando a função atualizarPlacar(), que atualiza os valores exibidos nos elementos contadorJOGADOR e contadorCPU.
-
+//=========================================================================================================================================
+//Define variaveis de placar e define valor como zero
+var cpuP = 0;
+var J1P = 0;
+var eP = 0;
 atualizarPlacar();
 //atuaizar placar, faz o placar iniciar em Zero
 //define variaveis de saida: "vitoria", "empate", "derrota", placar da CPU e GPU
@@ -32,10 +36,6 @@ var contadorCPU = document.getElementById("contadorCPU");
 mensagemEmpate.style.display = "none";
 mensagemVitoria.style.display = "none";
 mensagemDerrota.style.display = "none";
-//Define variaveis de placar e define valor como zero
-var cpuP = 0;
-var J1P = 0;
-var eP = 0;
 //encontra no html o local do placar e abribui o valor
 contadorJOGADOR.style.display = J1P;
 contadorCPU.style.display = cpuP;
